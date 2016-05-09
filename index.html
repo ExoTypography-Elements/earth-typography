@@ -1,33 +1,35 @@
-<!DOCTYPE html><!--
-@license
+<!-- @license
 Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for anyone who wants to make it thiers.)
---><html><head>
-
-    <title>earth-typography</title>
-
+ -->
+<!doctype html>
+<html>
+  <head>
     <meta charset="utf-8">
+    <title>earth-typography</title>
+   
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
- <link rel="import" href="dist/earth-typography.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     
-
+   
+ <link rel="import" href="dist/earth-typography.html">
   </head>
-  <body class="">
-
+  <body>
     <div id="top" class="page" role="document" >
-     <header role="banner" class="et-background-primary  p4" >
+     <header role="banner" class="et-background-primary  p4 " >
 <center> <h1><span> ExoTypography</span><br><small>by Findborg</small></h1>
 
         </center>
         
       </header>
+      <div class="et-background-primary-dark et-white-text p2">
 		<p>
 				<dl class="et-headline et-perfect mx-auto">
                 <dt >earth-typography element</dt>
                 <dd>is a test page filled with common HTML elements to be used to provide visual feedback whilst building CSS systems and frameworks.</dd>
               </dl>
          </p>
-      <nav role="navigation">
+       </div>  
+      <nav role="navigation" style="max-width: 960px;" class="mx-auto">
         <ul>
           <li>
             <a href="#text">Text</a>
@@ -71,8 +73,8 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
       </nav>
       <main role="main" style="">
         <section id="text">
-          <header><h1 >Text</h1></header>
-          <article id="text__headings">
+          <header style="max-width: 1280px;" class="mx-auto"><h1 >Text</h1></header>
+          <article id="text__headings" style="max-width: 960px;" class="mx-auto">
             <header>
               <h1>Headings</h1>
             </header>
@@ -86,14 +88,14 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
             </div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="text__paragraphs">
+          <article id="text__paragraphs" style="max-width: 960px;" class="mx-auto">
             <header><h1>Paragraphs</h1></header>
             <div>
               <p>A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
             </div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="text__blockquotes">
+          <article id="text__blockquotes" style="max-width: 960px;" class="mx-auto">
             <header><h1>Blockquotes</h1></header>
             <div>
               <blockquote>
@@ -104,7 +106,7 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
             </div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="text__lists">
+          <article id="text__lists" style="max-width: 960px;" class="mx-auto">
             <header><h1>Lists</h1></header>
             <div>
               <h3>Definition list</h3>
@@ -127,14 +129,14 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
             </div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="text__hr">
+          <article id="text__hr" style="max-width: 960px;" class="mx-auto">
             <header><h1>Horizontal rules</h1></header>
             <div>
               <hr>
             </div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="text__tables">
+          <article id="text__tables" style="max-width: 960px;" class="mx-auto">
             <header><h1>Tabular data</h1></header>
             <table>
               <caption>Table Caption</caption>
@@ -189,7 +191,7 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
             </table>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="text__code">
+          <article id="text__code" style="max-width: 960px;" class="mx-auto">
             <header><h1>Code</h1></header>
             <div>
               <p><strong>Keyboard input:</strong> <kbd>Cmd</kbd></p>
@@ -206,7 +208,7 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
             </div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="text__inline">
+          <article id="text__inline" style="max-width: 960px;" class="mx-auto">
             <header><h1>Inline elements</h1></header>
             <div>
               <p><a href="#!">This is a text link</a>.</p>
@@ -234,7 +236,7 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
 
         <section id="embedded">
           <header><h1>Embedded content</h1></header>
-          <article id="embedded__images">
+          <article id="embedded__images" style="max-width: 960px;" class="mx-auto">
             <header><h2>Images</h2></header>
             <div>
               <h3>No <code>&lt;figure&gt;</code> element</h3>
@@ -249,51 +251,51 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
             </div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="embedded__audio">
+          <article id="embedded__audio" style="max-width: 960px;" class="mx-auto">
             <header><h2>Audio</h2></header>
             <div><audio controls="">audio</audio></div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="embedded__video">
+          <article id="embedded__video" style="max-width: 960px;" class="mx-auto">
             <header><h2>Video</h2></header>
             <div><video controls="">video</video></div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="youtube__video">
+          <article id="youtube__video" style="max-width: 960px;" class="mx-auto">
           	<header><h2>YouTube</h2></header>
           	<div>
           		<iframe width="560" height="315" src="https://www.youtube.com/embed/1A3i0GATnRI" frameborder="0" allowfullscreen></iframe>
           	</div>
           	<footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="embedded__canvas">
+          <article id="embedded__canvas" style="max-width: 960px;" class="mx-auto">
             <header><h2>Canvas</h2></header>
             <div><canvas>canvas</canvas></div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="embedded__meter">
+          <article id="embedded__meter" style="max-width: 960px;" class="mx-auto">
             <header><h2>Meter</h2></header>
             <div><meter value="5" min="0" max="10">5 out of 10</meter></div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="embedded__progress">
+          <article id="embedded__progress" style="max-width: 960px;" class="mx-auto">
             <header><h2>Progress</h2></header>
             <div><progress>progress</progress></div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="embedded__svg">
+          <article id="embedded__svg" style="max-width: 960px;" class="mx-auto">
             <header><h2>Inline SVG</h2></header>
             <div><svg width="100px" height="100px"><circle cx="100" cy="100" r="100" fill="#1fa3ec"></circle></svg></div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="embedded__iframe">
+          <article id="embedded__iframe" style="max-width: 960px;" class="mx-auto">
             <header><h2>IFrame</h2></header>
             <div><iframe src="index.html" height="300"></iframe></div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
         </section>
-        <section id="forms" class="et-background-primary-dark et-white-text">
-          <header><h1>Form elements</h1></header>
+        <section id="forms" class="et-background-primary">
+          <header style="max-width: 1280px;" class="mx-auto"><h1>Form elements</h1></header>
           <form style="max-width: 960px;margin-left: auto;margin-right: auto;">
             <fieldset id="forms__input">
             	 <legend>Input fields</legend>
@@ -301,19 +303,21 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
                 <label for="input__text">Text Input</label>
                 <input id="input__text" type="text" placeholder="Text Input">
               </p>
-
+<div class="et-background-primary-dark et-white-text px16 py1">
               <legend>Input fields with classes</legend>
               <p>
                 <label for="input__text" class="et-label">Text Input</label>
                 <input id="input__text" type="text" placeholder="Text Input" class="et-text-field-field">
               </p>
-              <p>
+              
+              <p >
               	<div class="et-text-field">
                 <label class="et-label">Name</label>
                 <input class="et-text-field-field">
                 <span class="et-text-field-description">This should be your first and last name.</span>
               	</div>
               </p>
+
               <p>
                 <label for="input__password" >Password</label>
                 <input id="input__password" type="password" placeholder="Type your Password" class="et-text-field-field">
@@ -346,6 +350,7 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
                 <label for="input__text4" class="valid">Valid</label>
                 <input id="input__text4" class="is-valid" type="text" placeholder="Text Input" class="et-text-field-field">
               </p>
+    </div>          
             </fieldset>
             <p><a href="#top">[Top]</a></p>
             <fieldset id="forms__select">
@@ -443,10 +448,13 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
           </form>
         </section>
       </main>
-      <footer role="contentinfo">
+      <footer role="contentinfo" class="px16 py1">
         <p>Made by <a href="http://twitter.com/cbracco">@cbracco</a>. Code on <a href="http://github.com/cbracco/html5-test-page">GitHub</a>.</p>
       </footer>
     </div>
     
-  
-</body></html>
+  </body>
+</html>
+
+
+
