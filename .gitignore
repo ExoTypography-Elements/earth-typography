@@ -1,8 +1,7 @@
-src\node_modules
 #################
 ## Eclipse
 #################
-
+src\node_modules
 *.pydevproject
 .project
 .metadata
@@ -185,21 +184,7 @@ $RECYCLE.BIN/
 .DS_Store
 
 
-#############
-## Python
-#############
 
-*.py[cod]
-
-# Packages
-*.egg
-*.egg-info
-dist/
-build/
-eggs/
-parts/
-var/
-sdist/
 develop-eggs/
 .installed.cfg
 

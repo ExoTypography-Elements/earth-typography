@@ -1,5 +1,5 @@
 @import variables
-input{
+input, textarea{
   background-color: transparent;
   box-sizing: border-box;
   margin: 0;
@@ -15,23 +15,34 @@ input{
   width: 100%;
   min-width: 180px;
 }
+textarea{
+ 
+    
+   }
 input.is-active {
   border-color: #0078d7 !important;
 }
-input:hover {
+input:hover, textarea {
   border-color: #767676;
 }
 
-input:focus {
+input:focus,{
+  background:  #fff;
+  color: #000;
+  border-color: color-accent;
+}
+
+textarea:focus{
   background:  #fff;
   color: #000;
   border-color: color-accent;
 }
 
 input:hover,
-input:focus {
+input:focus, textarea{
   outline: 1px solid transparent;
 }
+
 
 
 .et-label {
