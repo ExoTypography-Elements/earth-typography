@@ -12,10 +12,38 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
     
     
     <link rel="import" href="dist/earth-typography.html">
+    <style type="text/css">
+
+
+
+
+
+
+
+    
+
+
+.page {
+  box-sizing: border-box;
+    background-color : rgba(255,255,255, .8);
+    position         : relative;
+  z-index          : 2;
+  transition       : transform .3s ease;
+  will-change      : transform;
+    max-width: 832px;
+}
+.page {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    
+    
+    
+    }
+
+    </style>
   </head>
-  <body  >
-    <div id="top" class="page" role="document" >
-      <header role="banner" class="p4 et-background-primary" >
+  <body class="et-background-primary" >
+    <div id="top" class="" role="document" >
+      <header role="banner" class="p4" style="background-color:white !important;" >
         <center> <h1><span> ExoTypography</span><br><small>by Findborg</small></h1>
         </center>
         
@@ -35,7 +63,8 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
           </div>
           
         </div>
-        <div class="py3" >
+        <div class="p3" >
+        <div class="page p-flex mx-auto">
         <div id="example">Here is something</div>
           <nav role="navigation" style="max-width: 960px;" class=" mx-auto">
             <ul>
@@ -79,20 +108,21 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
               </li>
             </ul>
           </nav>
+          </div>
         </div>
-        <h2>Basic colors & layout system</h2>
         
+        <header class="et-text-center"><h1 >Basic colors & layout system</h1></header>
         <div class="row mt2">
-          <div class="col p4 et-headline et-background-primary"><p>This is a demostration of using the accent color which you will also notice to be used with all of the other elements like links and borders.</p></div>
+          <div class="col p4 et-headline et-background-accent"><p>This is a demostration of using the accent color which you will also notice to be used with all of the other elements like links and borders.</p></div>
         </div>
         <div class="row">
           <div class="col p4 "><p>This is a demostration of using the accent color which you will also notice to be used with all of the other elements like links and borders.</p></div>
           <div class="col et-background-primary-dark p4 ">
-            <center><img src="blue-flower-outline.svg.med.png" alt="Image alt text"></center>
+            <center><img src="img-02.jpg" alt="Image alt text"></center>
           </div>
         </div>
         <div class="row mb2">
-          <div class="col et-background-accent p4 "><center><img src="pink-hearts.svg.hi.png" alt="Image alt text"></center>
+          <div class="col et-background-accent p4 "><center><img src="img-02.jpg" alt="Image alt text"></center>
           </div>
           <div class="col  p4 ">
             
@@ -124,55 +154,32 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
                 </div>
-                <div class="row mt2 mb2">
-                  <div class="col p4 ">
-                    <h3>Your great title</h3>
-                    <p>Grumpy wizards make toxic brew for the evil Queen and Jack.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-                    <div class="col p4 "><h3>Your great title</h3><p>Grumpy wizards make toxic brew for the evil Queen and Jack.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-                    <div class="col p4 "><h3>Your great title</h3><p>Grumpy wizards make toxic brew for the evil Queen and Jack.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-                    <div class="col p4 "><h3>Your great title</h3><p>Grumpy wizards make toxic brew for the evil Queen and Jack.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-                    
+                <div class="page p-flex mx-auto">
+                jjj
                   </div>
-                  <div class="row mt2 mb2" style="text-align: center">
-                    <div class="col p4 ">
-                      <center><p class="et-display-4">&#9884;</p></center>
-                      <p>Earth</p></div>
-                      <div class="col p4 ">
-                        <center><p class="et-display-4">&#9884;</p></center>
-                        <p>Fire</p></div>
-                        <div class="col p4 ">
-                          <center><p class="et-display-4">&#9884;</p></center>
-                          <p>Water</p></div>
-                          <div class="col p4 ">
-                            <center><p class="et-display-4">&#9884;</p></center>
-                            <p>Air</p></div>
-                            <div class="col p4 ">
-                              <center><p class="et-display-4">&#9884;</p></center>
-                              <p>Aether</p></div>
-                              <div class="col p4 ">
-                                <center><p class="et-display-4">&#9884;</p></center>
-                                <p>ExoTypography</p></div>
-                              </div>
+<div class="row mt2 mb2 p2" style="text-align: center">
+  <div class="col p1" >
+  <div class="p4" style="background-color:white; border-radius: 50px;">
+    <center><p class="et-display-3">Ea</p></center>
+    <p>Earth</p>
+    </div>
+    </div>
+    <div class="col p4 " style="background-color:white; border-radius: 50px;">
+      <center><p class="et-display-3">Fi</p></center>
+      <p>Fire</p></div>
+      <div class="col p4 " style="background-color:white; border-radius: 50px;">
+        <center><p class="et-display-3">Wa</p></center>
+        <p>Water</p></div>
+        <div class="col p4 " style="background-color:white; border-radius: 50px;">
+          <center><p class="et-display-3">Ai</p></center>
+          <p>Air</p></div>
+          <div class="col p4 " style="background-color:white; border-radius: 50px;">
+            <center><p class="et-display-3">Ae</p></center>
+            <p>Aether</p></div>
+            <div class="col p4 " style="background-color:white; border-radius: 50px;">
+              <center><p class="et-display-3">Et</p></center>
+              <p>ExoTypography</p></div>
+            </div>
                               
                               
                               
@@ -183,29 +190,32 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
                                   <p class="et-perfect mx-auto">Go for it. Both fixed and percentage base widths work perfectly. You can even use them together. The remaining columns will take up the rest of the available space.</p>
                                 </div>
                               </div>
+                              <div class="page mb4 p-flex mx-auto">
                               <div class="row mt2 mb2">
-                                <div class="col et-background-primary" style="width:80%"><center><span class="et-display-4">80%</span></center></div>
-                                <div class="col p2"><center><img class="" src="xthing.png" alt="Image alt text"></center></div>
+                                <div class="col et-background-primary" style="width:80%"><center><span class="et-display-3">80%</span></center></div>
+                                <div class="col "><center><img src="img-02.jpg" alt="Image alt text"></center></div>
                               </div>
                               <div class="row mt2 mb2">
                                 <div class="col p2 et-background-primary" style="width:40%">40%</div>
-                                <div class="col p2 mx16 " style="width:20% "><center><img src="redflower.png" alt="Image alt text"></center>20%</div>
-                                <div class="col p2 mx16 et-background-accent" style="width:40%">40%</div>
+                                <div class="col" style="width:20% "><center><img src="img-02.jpg" alt="Image alt text"></center>20%</div>
+                                <div class="col p2 et-background-accent" style="width:40%">40%</div>
                               </div>
                               <div class="row mt2 mb2">
                                 <div class="col et-background-primary">&#9884;</div>
-                                <div class="col p2" style="width:425px"><center><img src="bank.png" alt="Image alt text"></center></div>
+                                <div class="col " style="width:425px"><center><img src="img-02.jpg" alt="Image alt text"></center></div>
                               </div>
                               <div class="row mt2 mb2">
                                 <div class="col  et-background-primary" style="width:15%">15%</div>
-                                <div class="col" style="width:200px"><center><img src="gear-clock-gears.svg.med.png" alt="Image alt text"></center>200px</div>
+                                <div class="col" style="width:200px"><center><img src="img-02.jpg" alt="Image alt text"></center>200px</div>
                                 <div class="col  et-background-primary">&#9884;</div>
                                 <div class="col  et-background-accent" style="width:25%">25%</div>
                               </div>
-                              
+                              </div>
                               <main role="main">
                               <section id="text">
-                              <header style="max-width: 1280px;" class="mx-auto"><h1 >Text</h1></header>
+                              <header class="et-text-center"><h1 >Text</h1></header>
+                              <div class="page mb4 p-flex mx-auto">
+                              
                               <article id="text__headings" style="max-width: 960px;" class="mx-auto">
                                 <header>
                                   <h1>Headings</h1>
@@ -220,13 +230,49 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
                                 </div>
                                 <footer><p><a href="#top">[Top]</a></p></footer>
                               </article>
+                              </div>
+                              <div class="page mb4 p-flex mx-auto">
                               <article id="text__paragraphs" style="max-width: 960px;" class="mx-auto">
                               <header><h1>Paragraphs</h1></header>
                               <div>
                                 <p>A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
                               </div>
+                              <div class="row mt2 mb2 ">
+                  <div class="col p1 ">
+                    <h3>Your great title</h3>
+                    <p>Grumpy wizards make toxic brew for the evil Queen and Jack.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+                    <div class="col p1"><h3>Your great title</h3><p>Grumpy wizards make toxic brew for the evil Queen and Jack.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+                    </div>
+                    <div class="row mt2 mb2 ">
+                  <div class="col p1 ">
+                    <h3>Your great title</h3>
+                    <p>Grumpy wizards make toxic brew for the evil Queen and Jack.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+                    <div class="col p1"><h3>Your great title</h3><p>Grumpy wizards make toxic brew for the evil Queen and Jack.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+                    </div>
                               <footer><p><a href="#top">[Top]</a></p></footer>
                             </article>
+                            </div>
+                            <div class="page mb4 p-flex mx-auto">
                             <article id="text__blockquotes" style="max-width: 960px;" class="mx-auto">
                             <header><h1>Blockquotes</h1></header>
                             <div>
@@ -238,6 +284,8 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
                             </div>
                             <footer><p><a href="#top">[Top]</a></p></footer>
                           </article>
+                          </div>
+                         <div class="page mb4 p-flex mx-auto">
                           <article id="text__lists" style="max-width: 960px;" class="mx-auto">
                           <header><h1>Lists</h1></header>
                           <div>
@@ -261,6 +309,8 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
                           </div>
                           <footer><p><a href="#top">[Top]</a></p></footer>
                         </article>
+                        </div>
+                        <div class="page mb4 p-flex mx-auto">
                         <article id="text__hr" style="max-width: 960px;" class="mx-auto">
                         <header><h1>Horizontal rules</h1></header>
                         <div>
@@ -268,6 +318,8 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
                         </div>
                         <footer><p><a href="#top">[Top]</a></p></footer>
                       </article>
+                      </div>
+                      <div class="page mb4 p-flex mx-auto">
                       <article id="text__tables" style="max-width: 960px;" class="mx-auto">
                       <header><h1>Tabular data</h1></header>
                       <table>
@@ -323,6 +375,8 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
                       </table>
                       <footer><p><a href="#top">[Top]</a></p></footer>
                     </article>
+                    </div>
+                    <div class="page mb4 p-flex mx-auto">
                     <article id="text__code" style="max-width: 960px;" class="mx-auto">
                     <header><h1>Code</h1></header>
                     <div>
@@ -340,6 +394,8 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
                     </div>
                     <footer><p><a href="#top">[Top]</a></p></footer>
                   </article>
+                  </div>
+                  <div class="page mb4 p-flex mx-auto">
                   <article id="text__inline" style="max-width: 960px;" class="mx-auto">
                   <header><h1>Inline elements</h1></header>
                   <div>
@@ -364,9 +420,11 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
                   </div>
                   <footer><p><a href="#top">[Top]</a></p></footer>
                 </article>
+                </div>
               </section>
               <section id="embedded">
-              <header style="max-width: 1280px;" class="mx-auto"><h1>Embedded content</h1></header>
+              <header class="et-text-center"><h1>Embedded content</h1></header>
+              <div class="page mb4 p-flex mx-auto">
               <article id="embedded__images" style="max-width: 960px;" class="mx-auto">
               <header><h2>Images</h2></header>
               <div>
@@ -385,16 +443,21 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
             </div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
+          </div>
+          <div class="page mb4 p-flex mx-auto">
           <article id="embedded__audio" style="max-width: 960px;" class="mx-auto">
           <header><h2>Audio</h2></header>
           <div><audio controls="">audio</audio></div>
           <footer><p><a href="#top">[Top]</a></p></footer>
         </article>
+        </div>
+        <div class="page mb4 p-flex mx-auto">
         <article id="embedded__video" style="max-width: 960px;" class="mx-auto">
         <header><h2>Video</h2></header>
         <div><video controls="">video</video></div>
         <footer><p><a href="#top">[Top]</a></p></footer>
       </article>
+      </div>
       <!-- <article id="pause__video" style="max-width: 960px;" class="mx-auto">
       <header><h2>Pause</h2></header>
       <div>
@@ -405,7 +468,7 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
       </div>
       <footer><p><a href="#top">[Top]</a></p></footer>
     </article> -->
-    
+    <div class="page mb4 p-flex mx-auto">
     <article id="youtube__video" style="max-width: 960px;" class="mx-auto">
     <header><h2>YouTube</h2></header>
     <div>
@@ -413,42 +476,54 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
     </div>
     <footer><p><a href="#top">[Top]</a></p></footer>
   </article>
+  </div>
+  <div class="page mb4 p-flex mx-auto">
   <article id="embedded__canvas" style="max-width: 960px;" class="mx-auto">
   <header><h2>Canvas</h2></header>
   <div><canvas>canvas</canvas></div>
   <footer><p><a href="#top">[Top]</a></p></footer>
 </article>
+</div>
+<div class="page mb4 p-flex mx-auto">
 <article id="embedded__meter" style="max-width: 960px;" class="mx-auto">
 <header><h2>Meter</h2></header>
 <div><meter value="5" min="0" max="10">5 out of 10</meter></div>
 <footer><p><a href="#top">[Top]</a></p></footer>
 </article>
+</div>
+<div class="page mb4 p-flex mx-auto">
 <article id="embedded__progress" style="max-width: 960px;" class="mx-auto">
 <header><h2>Progress</h2></header>
 <div><progress>progress</progress></div>
 <footer><p><a href="#top">[Top]</a></p></footer>
 </article>
+</div>
+<div class="page mb4 p-flex mx-auto">
 <article id="embedded__svg" style="max-width: 960px;" class="mx-auto">
 <header><h2>Inline SVG</h2></header>
 <div><svg width="100px" height="100px"><circle cx="100" cy="100" r="100" fill="#1fa3ec"></circle></svg></div>
 <footer><p><a href="#top">[Top]</a></p></footer>
 </article>
+</div>
+<div class="page mb4 p-flex mx-auto">
 <article id="embedded__iframe" style="max-width: 960px;" class="mx-auto">
 <header><h2>IFrame</h2></header>
 <div><iframe src="iframe.html"  width="100%" height="400"></iframe></div>
 <footer><p><a href="#top">[Top]</a></p></footer>
 </article>
+</div>
 </section>
 <section id="forms" class="et-background-primary">
-<header style="max-width: 1280px;" class="mx-auto"><h1>Form elements</h1></header>
-<form style="max-width: 960px;margin-left: auto;margin-right: auto;">
+<header class="et-text-center"><h1>Form elements</h1></header>
+<div class="page mb4 p-flex mx-auto">
+<form>
 <fieldset id="forms__input">
 <legend>Input fields</legend>
 <p>
 <label for="input__text">Text Input</label>
 <input id="input__text" type="text" placeholder="Text Input">
 </p>
-<div class="et-background-primary-dark et-white-text px16 py1">
+
 <legend>Input fields with classes</legend>
 <p>
 <label for="input__text" class="et-label">Text Input</label>
@@ -494,9 +569,13 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
 <label for="input__text4" class="valid">Valid</label>
 <input id="input__text4" class="is-valid" type="text" placeholder="Text Input" class="et-text-field-field">
 </p>
-</div>
+
 </fieldset>
+</form>
 <p><a href="#top">[Top]</a></p>
+</div>
+<div class="page mb4 p-flex mx-auto">
+<form>
 <fieldset id="forms__select">
 <legend>Select menus</legend>
 <p>
@@ -511,6 +590,8 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
 </p>
 </fieldset>
 <p><a href="#top">[Top]</a></p>
+</div>
+<div class="page mb4 p-flex mx-auto">
 <fieldset id="forms__checkbox">
 <legend>Checkboxes</legend>
 <ul class="list list--bare">
@@ -519,7 +600,11 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
 <li><label for="checkbox3"><input id="checkbox3" name="checkbox" type="checkbox"> Choice C</label></li>
 </ul>
 </fieldset>
+</form>
 <p><a href="#top">[Top]</a></p>
+</div>
+<div class="page mb4 p-flex mx-auto">
+<form>
 <fieldset id="forms__radio">
 <legend>Radio buttons</legend>
 <ul class="list list--bare">
@@ -528,7 +613,11 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
 <li><label for="radio3"><input id="radio3" name="radio" type="radio" class="radio"> Option 3</label></li>
 </ul>
 </fieldset>
+</form>
 <p><a href="#top">[Top]</a></p>
+</div>
+<div class="page mb4 p-flex mx-auto">
+<form>
 <fieldset id="forms__textareas">
 <legend>Textareas</legend>
 <p>
@@ -536,7 +625,11 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
 <textarea id="textarea" rows="8" cols="48" placeholder="Enter your message here"></textarea>
 </p>
 </fieldset>
+</form>
 <p><a href="#top">[Top]</a></p>
+</div>
+<div class="page mb4 p-flex mx-auto">
+<form>
 <fieldset id="forms__html5">
 <legend>HTML5 inputs</legend>
 <p>
@@ -572,7 +665,11 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
 <input type="datetime-local" id="idtl" value="1970-01-01T00:00">
 </p>
 </fieldset>
+</form>
 <p><a href="#top">[Top]</a></p>
+</div>
+<div class="page mb4 p-flex mx-auto">
+<form>
 <fieldset id="forms__action">
 <legend>Action buttons</legend>
 <p>
@@ -588,8 +685,10 @@ Copyright (c) 2016 The ExoTypography Project Authors. All rights reserved(for an
 <button type="button" disabled>&lt;button disabled&gt;</button>
 </p>
 </fieldset>
-<p><a href="#top">[Top]</a></p>
 </form>
+<p><a href="#top">[Top]</a></p>
+</div>
+
 </section>
 </main>
 <footer role="contentinfo" class="px16 py1">
