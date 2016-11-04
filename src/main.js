@@ -1,24 +1,14 @@
-var Vue = require('vue')
+import Vue from 'vue'
+import App from './App.vue'
+//require('./et/et.styl');
+// Import the app's store
+import store from './vuex/store'
 
-//Load Exotypography
-var Etearthtypography = require('./earth-typography.vue');
-
-new Vue({
-  el: 'body',
-
+new Vue({ // eslint-disable-line no-new
+  el: '#app',
+  render: (h) => h(App),
+  store: store,
   components: {
-    EarthTypography:  Etearthtypography
-    
-
-}
-});   
-
-  
-  
-  
-   
-
-
-
-
-
+    App
+  }
+})
