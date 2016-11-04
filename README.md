@@ -1,6 +1,6 @@
-# <earth-typography/>
+### <earth-typography>
 
-> Styles that work
+> Your easy to use css base.  Hardly any classes for basic elements.  Only a small amount of utility classes to worry about.
 
 ## Build Setup
 
