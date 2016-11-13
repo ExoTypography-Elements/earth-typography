@@ -11,8 +11,10 @@
       <div class="et-background-primary  p2" >
         
         <div class="row mx-auto" style="max-width:800px" >
+
           <div class="col et-display-4" style="width:150px;vertical-align: middle;"><center>&#9780;</center></div>
           <div class="col " style="vertical-align: middle;">
+          <div class="et-display-4">Display 4 Text</div>
             <dl class="et-headline">
               <dt >earth-typography element</dt>
               <dd>is a test page filled with common HTML elements to be used to provide visual feedback.</dd>
